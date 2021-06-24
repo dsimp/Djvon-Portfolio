@@ -9,8 +9,8 @@ body {
   min-height: 100%;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--navy);
-  color: var(--slate);
+  background-color: orangered;
+  color: white;
   font-family: var(--font-sans);
   font-size: var(--fz-xl);
   line-height: 1.3;
