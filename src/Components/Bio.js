@@ -1,16 +1,30 @@
-import React, { Fragment } from "react";
+import React from "react";
+import Djvon from "./Images/IMG_0539.jpeg";
 
 const Bio = () => {
   return (
-    <Fragment>
-      <header> Bio </header>
-      <h1>Hi, my name is Djvon Simpson.</h1>
-      <p>
+    <div className="intro-div">
+      <h2>Hi, my name is</h2> <h1>Djvon Simpson.</h1>
+      <h2>
         I've always had a love for the web, so much that it inspired me to learn
-        how to contribute.
+        how to contribute. Now,
+      </h2>
+      <h1> I'm a developer</h1>
+      <p>
+        Based in Chicago, IL. Since 2018 thanks to Pluralsight, Udemy, Youtube
+        and the many resources on Google, I've become profecient in
       </p>
-      <h2>Now, I'm a developer</h2>
-    </Fragment>
+      <img id="smile" src={Djvon} alt=""></img>
+      <ul className="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>jquery</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Nodejs</li>
+      </ul>
+    </div>
   );
 };
 
