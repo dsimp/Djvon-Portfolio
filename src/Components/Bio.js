@@ -6,10 +6,11 @@ const Bio = () => {
     <div className="intro-div">
       <h2>Hi, my name is</h2> <h1>Djvon Simpson.</h1>
       <h2>
-        I've always had a love for the web, so much that it inspired me to learn
-        how to contribute. Now,
+        My love for the web is tremendous! The impact it has on my life (maybe
+        all lives) is astronomical, so much that it inspired me to learn how to
+        contribute. Now,
       </h2>
-      <h1> I'm a developer</h1>
+      <h1> I'm a developer!</h1>
       <p>
         Based in Chicago, IL. Since 2018 thanks to Pluralsight, Udemy, Youtube
         and the many resources on Google, I've become profecient in
