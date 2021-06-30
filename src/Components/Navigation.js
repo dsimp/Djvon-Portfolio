@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { GrLinkedin } from "react-icons/gr";
 
 const Navigation = () => {
   return (
@@ -10,11 +12,7 @@ const Navigation = () => {
         <div className="navlist">
           <ul>
             <li>
-              <a href="#linkedin">LinkedIn</a>
-            </li>
-            <li>
-              {" "}
-              <a href="#github">Github</a>
+              <a href="#bio"> Bio</a>
             </li>
             <li>
               {" "}
@@ -22,7 +20,15 @@ const Navigation = () => {
             </li>
             <li>
               {" "}
-              <a href="#bio">Bio</a>
+              <a href="https://github.com/dsimp">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">
+                <GrLinkedin />
+              </a>
             </li>
           </ul>
         </div>
