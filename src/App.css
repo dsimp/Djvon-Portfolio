@@ -132,7 +132,7 @@ a {
   border-style: solid;
   border-color: moccasin;
   line-height: 0.8;
-  margin: 0px 215px 0px 215px;
+  margin: 100px 215px 100px 215px;
   height: fit-content;
   top: 185px;
 }
@@ -195,11 +195,44 @@ a {
   top: 105px;
 }
 
+.pj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background: moccasin;
+  color: mediumspringgreen;
+  border-radius: 50%;
+  border-color: moccasin;
+  animation: pulse 3s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
+      0 0 0 0 rgba(245, 153, 78, 0.952);
+  }
+  40% {
+    box-shadow: 0 0 0 50px rgba(245, 153, 78, 0.952),
+      0 0 0 0 rgba(245, 153, 78, 0.952);
+  }
+  80% {
+    box-shadow: 0 0 0 50px rgba(245, 153, 78, 0.952),
+      0 0 0 30px rgba(245, 153, 78, 0.952);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
+      0 0 0 30px rgba(245, 153, 78, 0.952);
+  }
+}
+
 .gift {
   position: relative;
   width: 1px;
   animation-name: video;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -209,16 +242,24 @@ a {
 
 @keyframes video {
   1% {
-    width: 80px;
+    width: 125px;
+    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
+      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
   25% {
-    width: 180px;
+    width: 250px;
+    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
+      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
   50% {
-    width: 380px;
+    width: 375px;
+    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
+      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
   100% {
     width: 500px;
+    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
+      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
 }
 
@@ -228,7 +269,7 @@ a {
   right: 500px;
   bottom: -51px;
   animation-name: levitate;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
@@ -238,7 +279,7 @@ a {
   left: 500px;
   bottom: -1px;
   animation-name: elevate;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
@@ -253,47 +294,38 @@ a {
 @keyframes levitate {
   1% {
     bottom: -33px;
-    text-shadow: 1px 1px moccasin;
   }
   10% {
     bottom: -15px;
-    text-shadow: 2px 4px moccasin;
   }
+
   20% {
     bottom: 3px;
-    text-shadow: 3px 6px moccasin;
   }
+
   30% {
     bottom: 21px;
-    text-shadow: 4px 8px moccasin;
   }
   40% {
     bottom: 39px;
-    text-shadow: 5px 10px moccasin;
   }
   50% {
     bottom: 57px;
-    text-shadow: 6px 12px moccasin;
   }
   60% {
     bottom: 75px;
-    text-shadow: 7px 14px moccasin;
   }
   70% {
     bottom: 93px;
-    text-shadow: 8px 16px moccasin;
   }
   80% {
     bottom: 129px;
-    text-shadow: 9px 18px moccasin;
   }
   90% {
     bottom: 150px;
-    text-shadow: 10px 20px moccasin;
   }
   100% {
     bottom: 180px;
-    text-shadow: 11px 22px moccasin;
   }
 }
 

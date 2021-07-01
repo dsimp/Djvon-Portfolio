@@ -12,8 +12,8 @@ const Bio = () => {
       </h2>
       <h1> I'm a developer!</h1>
       <p>
-        Based in Chicago, IL. Since 2018 thanks to Pluralsight, Udemy, Youtube
-        and the many resources on Google, I've become profecient in
+        Based in Chicago, IL. Thanks to Pluralsight, Udemy, Youtube and the many
+        resources on Google, I've become profecient in
       </p>
       <img id="smile" src={Djvon} alt=""></img>
       <ul className="skills">
