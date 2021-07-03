@@ -11,20 +11,24 @@ const Bio = () => {
         contribute. Now,
       </h2>
       <h1> I'm a developer!</h1>
-      <p>
-        Based in Chicago, IL. Thanks to Pluralsight, Udemy, Youtube and the many
-        resources on Google, I've become profecient in
-      </p>
-      <img id="smile" src={Djvon} alt=""></img>
-      <ul className="skills">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>jquery</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Nodejs</li>
-      </ul>
+      <div>
+        <img id="smile" src={Djvon} alt=""></img>
+      </div>
+      <section>
+        <p>
+          Based in Chicago, IL. Thanks to Pluralsight, Udemy, Youtube and the
+          many resources on Google, I've become profecient in
+        </p>
+        <ul className="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>jquery</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Nodejs</li>
+        </ul>
+      </section>
     </div>
   );
 };

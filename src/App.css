@@ -108,7 +108,6 @@ a {
 #container #bio {
   position: relative;
   width: 100%;
-  height: 100%;
 }
 
 #container #project {
@@ -127,14 +126,16 @@ a {
 }
 
 .intro-div {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   border-style: solid;
   border-color: moccasin;
   line-height: 0.8;
   margin: 100px 215px 100px 215px;
   height: fit-content;
-  top: 185px;
 }
 
 .intro-div h1 {
@@ -171,8 +172,6 @@ a {
 
 #smile {
   position: relative;
-  left: 475px;
-  width: 350px;
   height: 300px;
   border-radius: 25px;
 }
@@ -182,7 +181,6 @@ a {
   list-style-type: none;
   border-color: moccasin;
   border-style: outset;
-  bottom: 315px;
   width: fit-content;
   line-height: 1.7;
   font-weight: 600;
@@ -363,4 +361,10 @@ a {
   100% {
     bottom: 200px;
   }
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
