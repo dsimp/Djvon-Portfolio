@@ -1,5 +1,6 @@
 import React from "react";
 import Djvon from "./Images/IMG_0539.jpeg";
+import Hover from "./Hover";
 
 const Bio = () => {
   return (
@@ -28,6 +29,7 @@ const Bio = () => {
           <li>Redux</li>
           <li>Nodejs</li>
         </ul>
+        <Hover />
       </section>
     </div>
   );

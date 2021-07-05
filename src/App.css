@@ -368,3 +368,15 @@ section {
   flex-direction: row;
   justify-content: space-around;
 }
+
+li img {
+  display: none;
+  position: relative;
+  z-index: 5;
+  width: 600px;
+  left: 500px;
+}
+
+li:hover img {
+  display: block;
+}
