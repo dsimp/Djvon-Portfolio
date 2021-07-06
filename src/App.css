@@ -72,6 +72,10 @@ ul {
   font-size: var(--fz-xs);
 }
 
+.navlist a:hover {
+  color: moccasin;
+}
+
 li {
   display: list-item;
   text-align: -webkit-match-parent;
@@ -178,6 +182,8 @@ a {
 
 .skills {
   position: relative;
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
   border-color: moccasin;
   border-style: outset;
@@ -379,4 +385,12 @@ li img {
 
 li:hover img {
   display: block;
+}
+
+.skill-sect {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,31 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
+import Cbadge from "./Images/CSSbadge.jpeg.png";
+import Rbadge from "./Images/Reactbadge.jpeg.png";
+import Jbadge from "./Images/Javascriptbadge.jpeg.png";
+import "./Slideshow.css";
 
 const Slideshow = () => {
-  <div className="slider">
-    <div className="slides">
-      <input type="radio" name="radio-btn" id="radio1" />
-      <input type="radio" name="radio-btn" id="radio2" />
-      <input type="radio" name="radio-btn" id="radio3" />
-      <div className="slide first">
-        <img />
-      </div>
-      <div className="slide ">
-        <img />
-      </div>
-      <div className="slide ">
-        <img />
-      </div>
-      <div className="navigation-auto">
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-      </div>
-    </div>
+  return (
+    <div className="slidershow middle">
+      <h1>What Does LinkedIn Have to Say About My Skills</h1>
+      <div className="slides">
+        <input type="radio" name="r" id="r1" defaultChecked />
+        <input type="radio" name="r" id="r2" />
+        <input type="radio" name="r" id="r3" />
 
-    <div className="navigation-manual">
-      <label for="radio1" class="manual-btn"></label>
-      <label for="radio2" class="manual-btn"></label>
-      <label for="radio3" class="manual-btn"></label>
+        <div className="slide s1">
+          <img src={Cbadge} alt="" />
+        </div>
+        <div className="slide ">
+          <img src={Rbadge} alt="" />
+        </div>
+        <div className="slide ">
+          <img src={Jbadge} alt="" />
+        </div>
+      </div>
+      <div className="navigation">
+        <label htmlFor="r1" className="bar"></label>
+        <label htmlFor="r2" className="bar"></label>
+        <label htmlFor="r3" className="bar"></label>
+      </div>
     </div>
-  </div>;
+  );
 };
+export default Slideshow;

@@ -1,6 +1,6 @@
 import React from "react";
 import Djvon from "./Images/IMG_0539.jpeg";
-import Hover from "./Hover";
+import Slideshow from "./Slideshow";
 
 const Bio = () => {
   return (
@@ -15,7 +15,7 @@ const Bio = () => {
       <div>
         <img id="smile" src={Djvon} alt=""></img>
       </div>
-      <section>
+      <section className="skill-sect">
         <p>
           Based in Chicago, IL. Thanks to Pluralsight, Udemy, Youtube and the
           many resources on Google, I've become profecient in
@@ -29,8 +29,8 @@ const Bio = () => {
           <li>Redux</li>
           <li>Nodejs</li>
         </ul>
-        <Hover />
       </section>
+      <Slideshow />
     </div>
   );
 };
