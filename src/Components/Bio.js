@@ -7,9 +7,11 @@ const Bio = () => {
     <div className="intro-div">
       <h2>Hi, my name is</h2> <h1>Djvon Simpson.</h1>
       <h2>
-        My love for the web is tremendous! The impact it has on my life (maybe
-        all lives) is astronomical, so much that it inspired me to learn how to
-        contribute. Now,
+        My love for the web is something that existed and has grown over the
+        course of my life. From the countless number of video games I've played,
+        data I've researched and shopping convenience The impact it has on my
+        life (maybe all lives) is astronomical, so much that it inspired me to
+        learn how to contribute. Now,
       </h2>
       <h1> I'm a developer!</h1>
       <div>

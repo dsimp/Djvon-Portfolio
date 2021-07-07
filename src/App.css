@@ -131,8 +131,21 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  line-height: 2;
+  letter-spacing: 3px;
 }
 
+#connect button {
+  border-radius: 30px;
+  border-color: palegreen;
+  cursor: pointer;
+}
+
+#connect button:hover {
+  background-color: moccasin;
+}
 #bio {
   position: relative;
   display: flex;

@@ -19,6 +19,9 @@ const Navigation = () => {
               <a href="#project">Project</a>
             </li>
             <li>
+              <a href="#connect">Contact</a>
+            </li>
+            <li>
               {" "}
               <a href="https://github.com/dsimp">
                 <FaGithub />
