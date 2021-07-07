@@ -5,6 +5,18 @@ import Jbadge from "./Images/Javascriptbadge.jpeg.png";
 import "./Slideshow.css";
 
 const Slideshow = () => {
+  const slider = () => {
+    var counter = 1;
+    setInterval(function () {
+      document.getElementById("r" + counter).defaultChecked = true;
+      counter++;
+      if (counter > 3) {
+        counter = 1;
+      }
+    }, 5000);
+  };
+
+  slider();
   return (
     <div className="slidershow middle">
       <h1>What Does LinkedIn Have to Say About My Skills</h1>

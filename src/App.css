@@ -74,6 +74,7 @@ ul {
 
 .navlist a:hover {
   color: moccasin;
+  background-color: black;
 }
 
 li {
@@ -118,6 +119,18 @@ a {
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+#container #connect {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #bio {
@@ -187,7 +200,7 @@ a {
   list-style-type: none;
   border-color: moccasin;
   border-style: outset;
-  width: fit-content;
+  width: 80%;
   line-height: 1.7;
   font-weight: 600;
 }
