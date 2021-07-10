@@ -40,6 +40,20 @@ const Slideshow = () => {
         <label htmlFor="r2" className="bar"></label>
         <label htmlFor="r3" className="bar"></label>
       </div>
+      <div className="linkedin-quotes">
+        <h2>According to LinkedIn I...</h2>
+        <ul className="quotes">
+          <li>
+            <q>Scored in the top 15% of 1.1M Javascript assessments</q>
+          </li>
+          <li>
+            <q>Scored in the top 15% of 1M CSS assessments</q>
+          </li>
+          <li>
+            <q>Scored in the top 30% of 345K React.js assessments</q>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

@@ -1,78 +1,25 @@
-.heady {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-  position: fixed;
-  top: 0px;
-  z-index: 11;
-  padding: 0px 50px;
-  width: 100%;
-  height: var(--nav-height);
-  background-color: mediumspringgreen;
-  backdrop-filter: blur(10px);
-  transition: var(--transition);
-  filter: none !important;
-  pointer-events: auto !important;
-  user-select: auto !important;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+nav ul li {
+  display: inline;
 }
 
-.navy {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  color: var(--lightest-slate);
-  font-family: var(--font-mono);
-  counter-reset: item 0;
-  z-index: 12;
+nav li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.navlist {
-  position: absolute;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  right: 100px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 22px;
+  font-family: sans-serif;
+  z-index: 5;
 }
 
-.navlist ul {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
-ul {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
-.navlist ul li {
-  margin: 0px 5px;
-  margin-top: 0px;
-  margin-right: 5px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  position: relative;
-  counter-increment: item 1;
-  font-size: var(--fz-xs);
-}
-
-.navlist a:hover {
+nav ul a:hover {
   color: moccasin;
   background-color: black;
 }
@@ -86,21 +33,12 @@ a {
   display: inline-block;
   text-decoration: none;
   text-decoration-line: none;
-  text-decoration-thickness: initial;
   text-decoration-style: initial;
   text-decoration-color: initial;
   text-decoration-skip-ink: auto;
   color: inherit;
   position: relative;
   transition: var(--transition);
-}
-
-.navlist ul li a {
-  padding: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
 }
 
 #container {
@@ -202,8 +140,9 @@ a {
 
 #smile {
   position: relative;
-  height: 300px;
+  height: auto;
   border-radius: 25px;
+  width: 75%;
 }
 
 .skills {
@@ -219,7 +158,8 @@ a {
 }
 
 .project-div {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: relative;
   text-align: center;
   top: 105px;
@@ -260,10 +200,11 @@ a {
 
 .gift {
   position: relative;
-  width: 1px;
+  width: 75%;
   animation-name: video;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+  height: auto;
 }
 
 .go {
@@ -296,21 +237,11 @@ a {
 .live {
   display: block;
   position: relative;
-  right: 500px;
-  bottom: -51px;
-  animation-name: levitate;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
 }
 
 .github {
   display: block;
   position: relative;
-  left: 500px;
-  bottom: -1px;
-  animation-name: elevate;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
 }
 
 .lid1 {
@@ -319,80 +250,6 @@ a {
 
 .lid2 {
   display: none;
-}
-
-@keyframes levitate {
-  1% {
-    bottom: -33px;
-  }
-  10% {
-    bottom: -15px;
-  }
-
-  20% {
-    bottom: 3px;
-  }
-
-  30% {
-    bottom: 21px;
-  }
-  40% {
-    bottom: 39px;
-  }
-  50% {
-    bottom: 57px;
-  }
-  60% {
-    bottom: 75px;
-  }
-  70% {
-    bottom: 93px;
-  }
-  80% {
-    bottom: 129px;
-  }
-  90% {
-    bottom: 150px;
-  }
-  100% {
-    bottom: 180px;
-  }
-}
-
-@keyframes elevate {
-  1% {
-    bottom: 20px;
-  }
-  10% {
-    bottom: 40px;
-  }
-  20% {
-    bottom: 50px;
-  }
-  30% {
-    bottom: 60px;
-  }
-  40% {
-    bottom: 70px;
-  }
-  50% {
-    bottom: 90px;
-  }
-  60% {
-    bottom: 110px;
-  }
-  70% {
-    bottom: 130px;
-  }
-  80% {
-    bottom: 160px;
-  }
-  90% {
-    bottom: 180px;
-  }
-  100% {
-    bottom: 200px;
-  }
 }
 
 section {
@@ -419,4 +276,31 @@ li:hover img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.linkedin-quotes {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  nav ul {
+    position: fixed;
+    right: 0px;
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+  nav ul li {
+    display: block;
+  }
+
+  .intro-div {
+    margin: 100px 215px 100px 10px;
+  }
 }

@@ -9,14 +9,12 @@ const Bio = () => {
       <h2>
         My love for the web is something that existed and has grown over the
         course of my life. From the countless number of video games I've played,
-        data I've researched and shopping convenience The impact it has on my
-        life (maybe all lives) is astronomical, so much that it inspired me to
-        learn how to contribute. Now,
+        data I've researched and the convenience of online shopping, the impact
+        it has on my life (maybe all lives) is astronomical, so much that it
+        inspired me to learn how to contribute. Now,
       </h2>
       <h1> I'm a developer!</h1>
-      <div>
-        <img id="smile" src={Djvon} alt=""></img>
-      </div>
+      <img id="smile" src={Djvon} alt=""></img>
       <section className="skill-sect">
         <p>
           Based in Chicago, IL. Thanks to Pluralsight, Udemy, Youtube and the

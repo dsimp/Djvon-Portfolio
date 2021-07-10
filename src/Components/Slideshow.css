@@ -55,3 +55,22 @@ input[name="r"] {
 #r3:checked ~ .s1 {
   margin-left: -40%;
 }
+
+.quotes {
+  line-height: 2;
+}
+
+@media only screen and (max-width: 865px) {
+  .slides {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+  .linkedin-quotes {
+    display: block;
+  }
+  .slide img {
+    display: none;
+  }
+}
