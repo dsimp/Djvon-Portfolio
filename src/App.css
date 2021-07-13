@@ -1,15 +1,18 @@
-nav ul li {
+.navyUL li {
   display: inline;
 }
 
-nav li a {
+.headnav li a {
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-nav ul {
+.navyUL {
+  position: fixed;
+  width: 100%;
+  background-color: mediumspringgreen;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,17 +22,17 @@ nav ul {
   z-index: 5;
 }
 
-nav ul a:hover {
+.navyUL a:hover {
   color: moccasin;
   background-color: black;
 }
 
-li {
-  display: list-item;
+.navyUL li {
+  display: inline;
   text-align: -webkit-match-parent;
 }
 
-a {
+.navyUL a {
   display: inline-block;
   text-decoration: none;
   text-decoration-line: none;
@@ -258,18 +261,6 @@ section {
   justify-content: space-around;
 }
 
-li img {
-  display: none;
-  position: relative;
-  z-index: 5;
-  width: 600px;
-  left: 500px;
-}
-
-li:hover img {
-  display: block;
-}
-
 .skill-sect {
   position: relative;
   display: flex;
@@ -290,14 +281,8 @@ li:hover img {
 }
 
 @media only screen and (max-width: 765px) {
-  nav ul {
-    position: fixed;
-    right: 0px;
-    font-size: 22px;
-    font-family: sans-serif;
-  }
-  nav ul li {
-    display: block;
+  .headnav {
+    display: none;
   }
 
   .intro-div {

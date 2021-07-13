@@ -3,11 +3,15 @@ import Navigation from "./Components/Navigation";
 import Bio from "./Components/Bio";
 import Project from "./Components/Project";
 import Connect from "./Components/Connect";
+import Sidenav from "./Components/Sidenav";
 
 function App() {
   return (
     <div className="App">
       <Navigation />
+
+      <Sidenav />
+
       <div id="container">
         <div id="bio">
           <Bio />

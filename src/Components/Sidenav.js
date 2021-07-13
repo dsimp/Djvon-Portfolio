@@ -1,11 +1,13 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
+import "./Sidenav.css";
 
-const Navigation = () => {
+const Sidenav = () => {
   return (
-    <nav className="headnav">
-      <ul className="navyUL">
+    <div className="sidenav">
+      <div id="toggle"></div>
+      <div id="sidebar">
         <li>
           <a href="https://github.com/dsimp">Djvon</a>
         </li>
@@ -31,9 +33,8 @@ const Navigation = () => {
         <li>
           <a href="#bio"> Bio</a>
         </li>
-      </ul>
-    </nav>
+      </div>
+    </div>
   );
 };
-
-export default Navigation;
+export default Sidenav;
