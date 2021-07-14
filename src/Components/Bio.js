@@ -9,8 +9,8 @@ const Bio = () => {
       <h2>
         My love for the web is something that existed and has grown over the
         course of my life. From the countless number of video games I've played,
-        data I've researched and the convenience of online shopping, the impact
-        it has on my life (maybe all lives) is astronomical, so much that it
+        data I've researched, the convenience of online shopping, the impact it
+        has on my life (maybe all lives) is astronomical. So much, that it
         inspired me to learn how to contribute. Now,
       </h2>
       <h1> I'm a developer!</h1>

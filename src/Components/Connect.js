@@ -3,7 +3,7 @@ import React from "react";
 const Connect = () => {
   return (
     <div id="connect">
-      <h2>
+      <h2 id="relate">
         Can your team use a motivated learner? <br></br>Looking for Javascript,
         React, and Redux skills?{" "}
       </h2>

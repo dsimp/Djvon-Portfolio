@@ -11,7 +11,7 @@ const Navigation = () => {
         </li>
         <li>
           {" "}
-          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">
+          <a href="www.linkedin.com/in/djvon-simpson-9341a186">
             <GrLinkedin />
           </a>
         </li>

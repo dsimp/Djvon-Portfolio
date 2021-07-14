@@ -238,23 +238,15 @@ p {
 @keyframes video {
   1% {
     width: 125px;
-    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
-      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
   25% {
     width: 250px;
-    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
-      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
   50% {
     width: 375px;
-    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
-      0 0 0 0 rgba(245, 153, 78, 0.952);
   }
   100% {
-    width: 500px;
-    text-shadow: 0 0 0 0 rgba(245, 153, 78, 0.952),
-      0 0 0 0 rgba(245, 153, 78, 0.952);
+    width: 75%;
   }
 }
 
@@ -410,5 +402,38 @@ section {
 
   .intro-div {
     margin: 100px 215px 100px 10px;
+  }
+}
+
+@media only screen and (max-width: 388px) {
+  .intro-div h2 {
+    font-size: 14px;
+  }
+
+  .intro-div p {
+    font-size: 14px;
+  }
+
+  .skills {
+    font-size: 14px;
+  }
+
+  .live h1 {
+    font-size: 18px;
+  }
+
+  .live h2 {
+    font-size: 14px;
+  }
+
+  #project-detail {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2;
+  }
+
+  #relate {
+    font-size: 16px;
   }
 }

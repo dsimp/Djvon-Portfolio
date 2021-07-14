@@ -58,6 +58,19 @@ input[name="r"] {
 
 .quotes {
   line-height: 2;
+  font-weight: 600;
+}
+
+.quotes li {
+  border-radius: 25px;
+  border-color: black;
+  margin-bottom: 5px;
+}
+
+.quotes li q {
+  border-color: black;
+  border-style: groove;
+  background-color: moccasin;
 }
 
 @media only screen and (max-width: 865px) {

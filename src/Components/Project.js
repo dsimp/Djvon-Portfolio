@@ -19,7 +19,7 @@ const Project = () => {
         <h1>Project</h1>
       </button>
       <h1 className={got}>SpiritTail</h1>
-      <h2 className={got}>
+      <h2 id="project-detail" className={got}>
         A nice, easy, and convenient cocktail web app. Provides the user a list
         of spirits to choose from. Displays an option of cocktails with
         ingredient instructions.
