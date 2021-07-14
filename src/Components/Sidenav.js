@@ -20,7 +20,12 @@ const Sidenav = () => {
   };
   return (
     <nav id="sidenav">
-      <div id="toggle" className={a} onClick={changer}></div>
+      <button
+        type="button"
+        id="toggle"
+        className={a}
+        onClick={changer}
+      ></button>
       <div id="sidebar" className={a}>
         <ul>
           <li>

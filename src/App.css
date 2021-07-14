@@ -111,6 +111,7 @@
   line-height: 0.8;
   margin: 100px 215px 100px 215px;
   height: fit-content;
+  width: 60%;
 }
 
 .intro-div h1 {
@@ -181,6 +182,8 @@ p {
 .project-div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   text-align: center;
   top: 105px;
@@ -293,6 +296,11 @@ section {
 
 #sidenav {
   display: none;
+}
+
+#sidenav button {
+  border-radius: 30px;
+  background-color: white;
 }
 
 @media only screen and (max-width: 1080px) {

@@ -5,6 +5,8 @@ import Project from "./Components/Project";
 import Connect from "./Components/Connect";
 import Sidenav from "./Components/Sidenav";
 
+console.log();
+
 function App() {
   return (
     <div className="App">

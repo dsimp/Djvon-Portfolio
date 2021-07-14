@@ -18,6 +18,12 @@ const Project = () => {
       <button type="button" className={pButton} onClick={() => nice()}>
         <h1>Project</h1>
       </button>
+      <h1 className={got}>SpiritTail</h1>
+      <h2 className={got}>
+        A nice, easy, and convenient cocktail web app. Provides the user a list
+        of spirits to choose from. Displays an option of cocktails with
+        ingredient instructions.
+      </h2>
       <img
         src="https://media.giphy.com/media/DahK8I5UbqwOTE9mVw/giphy.gif"
         alt="gif of app"

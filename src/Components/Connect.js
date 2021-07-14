@@ -12,6 +12,7 @@ const Connect = () => {
           <a href="mailto:simpsondjvon@yahoo.com">I'd love to connect!</a>
         </h1>
       </button>
+      <h4>simpsondjvon@yahoo.com</h4>
     </div>
   );
 };
