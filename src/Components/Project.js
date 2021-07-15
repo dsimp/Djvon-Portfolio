@@ -5,12 +5,14 @@ const Project = () => {
   const [got, setLive] = useState("lid1");
   const [git, setGit] = useState("lid2");
   const [pButton, setButton] = useState("pj");
+  const [lang, setLang] = useState("go");
 
   const nice = () => {
     setGone("gift");
     setLive("live");
     setGit("github");
     setButton("lid1");
+    setLang("language-use");
   };
 
   return (
@@ -24,11 +26,18 @@ const Project = () => {
         of spirits to choose from. Displays an option of cocktails with
         ingredient instructions.
       </h2>
+
       <img
         src="https://media.giphy.com/media/DahK8I5UbqwOTE9mVw/giphy.gif"
         alt="gif of app"
         className={gone}
       />
+      <ul className={lang}>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Node</li>
+        <li>Cocktail Web API</li>
+      </ul>
       <a href="https://spirit-tail-1-dsimp.vercel.app/" className={got}>
         <h2>Live</h2>
       </a>

@@ -187,6 +187,7 @@ p {
   position: relative;
   text-align: center;
   top: 105px;
+  margin-bottom: 100px;
 }
 
 .pj {
@@ -293,6 +294,17 @@ section {
 #sidenav button {
   border-radius: 30px;
   background-color: white;
+}
+
+.language-use {
+  display: flex;
+  margin-top: 70px;
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+
+.language-use li {
+  padding-right: 15px;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -405,7 +417,7 @@ section {
   }
 }
 
-@media only screen and (max-width: 388px) {
+@media only screen and (max-width: 430px) {
   .intro-div h2 {
     font-size: 14px;
   }
@@ -435,5 +447,11 @@ section {
 
   #relate {
     font-size: 16px;
+  }
+
+  .language-use {
+    display: inline;
+    margin-top: 10px;
+    line-height: 2;
   }
 }
