@@ -13,7 +13,7 @@ const Bio = () => {
         has on my life (maybe all lives) is astronomical. So much, that it
         inspired me to learn how to contribute. Now,
       </h2>
-      <h1> I'm a developer!</h1>
+      <h1> I'm an engineer!</h1>
       <img id="smile" src={Djvon} alt=""></img>
       <section className="skill-sect">
         <p>
