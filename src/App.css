@@ -254,11 +254,13 @@ p {
 .live {
   display: block;
   position: relative;
+  z-index: 4;
 }
 
 .github {
   display: block;
   position: relative;
+  z-index: 4;
 }
 
 .lid1 {
